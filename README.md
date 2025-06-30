@@ -8,3 +8,12 @@ Moreover, the model accounts for several operational constraints and cost factor
 -transportation costs
 
 The result is a daily production, storage, and delivery schedule that satisfies all demands at minimum total cost.
+
+
+The project includes multiple scenarios and progressive modeling questions, as described in the official assignment.
+For full context and detailed specifications, please refer to the file `sujet.pdf`.
+
+The file `Report.pdf` contains:
+- Mathematical models for each scenario
+- Answers to the theoretical questions
+- Discussions and interpretations of the results
