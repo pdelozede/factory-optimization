@@ -70,7 +70,7 @@ columns : days; rows : products; depth : clients)
 
 
 
-Penalties
+### Penalties
 (columns : penalties; rows : days)
 ![image](https://github.com/user-attachments/assets/aae97735-5d14-40a9-97ae-38f22a205ef4)
 
