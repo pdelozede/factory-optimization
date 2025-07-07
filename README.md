@@ -17,3 +17,6 @@ The file `Report.pdf` contains:
 - Mathematical models for each scenario
 - Answers to the theoretical questions
 - Discussions and interpretations of the results
+
+
+![image](https://github.com/user-attachments/assets/0d7dda45-624b-4278-9825-eb6c4246657b)
