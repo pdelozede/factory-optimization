@@ -33,6 +33,11 @@ Input :
 
 
 Output :
+
+Final cost :
+fval = 4.1372e+03
+
+
 Trucks to clients
 (columns : days;
  rows : days)
