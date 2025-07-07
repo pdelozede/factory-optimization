@@ -32,10 +32,11 @@ cd factory-optimization
 ##### Go to the project folder : 
 cd ("...../factory-optimization")
 ##### Select the model and the instance :
+Change the first variable : (1, 2, 3) :
 ###### [solution, fval] = optimProd(1,nbProduits, nbClients, capaProd, capaCrossdock, demande, a, b, penalite, coutStockUsine, coutCamionUsine, coutCamionClient);
-Change the first variable : (1, 2, 3)
+Change the name in "lireFichier('...')" :
 ###### [nbProduits, nbClients, capaProd, capaCrossdock, demande, a, b, penalite, coutStockUsine, coutCamionUsine, coutCamionClient] = lireFichier('instance3.dat');
-Change the name in "lireFichier"
+
 ##### Execute the file: run('projet2024_Pierre_de_Loze.m')
 
 
