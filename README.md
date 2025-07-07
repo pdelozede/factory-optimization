@@ -39,39 +39,37 @@ fval = 4.1372e+03
 
 
 ### Trucks to clients
-(columns : days;
- rows : days)
+#### (columns : days; rows : days)
 ![image](https://github.com/user-attachments/assets/ccf5a40b-fb37-470d-a0f7-7eafbf0bb0cd)
 
 
 
 ### Trucks to factories 
-(columns : days; rows : products)
+#### (columns : days; rows : products)
 ![image](https://github.com/user-attachments/assets/421ccc24-c75b-4a9f-9552-63d5151e7a06)
 
 
 
 ### Daily product made
-(columns : days; rows : products)
+#### (columns : days; rows : products)
 ![image](https://github.com/user-attachments/assets/0556239c-2bbe-4932-b1ff-2ede7436e380)
 
 
 
 ### Product received by clients
-(3D matrix 
-columns : days; rows : products; depth : clients)
+#### (3D matrix, columns : days; rows : products; depth : clients)
 ![image](https://github.com/user-attachments/assets/d3cd402f-443f-4142-8b10-50614357f24a)
 
 
 
 ### Product stocked 
-(columns : days; rows : products)
+#### (columns : days; rows : products)
 ![image](https://github.com/user-attachments/assets/3caba8c8-0f4a-4202-9164-466826b90dbc)
 
 
 
 ### Penalties
-(columns : penalties; rows : days)
+#### (columns : penalties; rows : days)
 ![image](https://github.com/user-attachments/assets/aae97735-5d14-40a9-97ae-38f22a205ef4)
 
 
