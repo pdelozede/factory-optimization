@@ -18,6 +18,25 @@ The file `Report.pdf` contains:
 - Answers to the theoretical questions
 - Discussions and interpretations of the results
 
+# How to use
+### Prerequisites
+
+-MATLAB installed (recommend version ≥ R2021a)
+-Cloned this repository :
+''' bash
+git clone https://github.com/pdelozede/factory-optimization.git
+cd factory-optimization
+
+### Execution steps
+-Open Matlab
+-Go to the project folder ( cd ("...../factory-optimization")
+-Select the model and the instance :
+   [solution, fval] = optimProd(1,nbProduits, nbClients, capaProd, capaCrossdock, demande, a, b, penalite, coutStockUsine, coutCamionUsine, coutCamionClient);
+         Change the first variable : (1, 2, 3)
+   [nbProduits, nbClients, capaProd, capaCrossdock, demande, a, b, penalite, coutStockUsine, coutCamionUsine, coutCamionClient] = lireFichier('instance3.dat');
+         Change the name in "lireFichier"
+-Execute the file: run('projet2024_Pierre_de_Loze.m')
+
 
 # Exemple of input and output for the second scenario :  
 The second model (LP2 model) refines logistics management by individually considering each product delivered to each customer as a generator of transport costs, which increases the granularity of the constraints and improves the accuracy of the model at the cost of increased computing time.
