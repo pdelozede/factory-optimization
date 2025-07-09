@@ -23,8 +23,11 @@ The file `Report.pdf` contains:
 
 -MATLAB installed (recommend version ≥ R2021a)
 -Cloned this repository :
+
 ''' bash
+
 git clone https://github.com/pdelozede/factory-optimization.git
+
 cd factory-optimization
 
 ### Execution steps
